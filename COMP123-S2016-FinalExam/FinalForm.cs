@@ -42,13 +42,20 @@ namespace COMP123_S2016_FinalExam
         private void FinalForm_Load(object sender, EventArgs e)
         {
 
-            
-            Character character = new Character();
+         
+            Character character = Program.character;
             StrengthTextBox.Text = character.Strength;
             DexterityTextBox.Text = character.Dexterity;
             ConstitutionTextBox.Text = character.Constitution;
             IntelligenceTextBox.Text = character.Intelligence;
             WisdomTextBox.Text = character.Wisdom;
+            CharismaTextBox.Text = character.Charisma;
+
+
+            FirstNameTextBox.Text = character.FirstName;
+            LastNameTextBox.Text = character.LastName;
+            RaceTextBox.Text = character.Race;
+            
         }
     }
 }

@@ -15,7 +15,7 @@ namespace COMP123_S2016_FinalExam
      * Description: this is program to display CustomerData
      * Author: Chinatsu Kawakami
      * StudentID: 300821245
-     * version 0.0.3 - updated splashHome
+     * version 0.0.4 - Updated FinalForm
      *
      * *
      */
