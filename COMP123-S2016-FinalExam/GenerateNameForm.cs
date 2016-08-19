@@ -49,7 +49,7 @@ namespace COMP123_S2016_FinalExam
         private void NextButton_Click(object sender, EventArgs e)
         {
             AbilityGeneratorForm AbilityGenerator = new AbilityGeneratorForm();
-
+            //NEXT FORM SHOW UP
             AbilityGenerator.Show();
             this.Hide();
         }
