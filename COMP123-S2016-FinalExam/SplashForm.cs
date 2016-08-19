@@ -15,7 +15,8 @@ namespace COMP123_S2016_FinalExam
      * Description: this is program to display CustomerData
      * Author: Chinatsu Kawakami
      * StudentID: 300821245
-     * version 0.0.2 - Created GeneratedNameForm and added GenerateName method and Added comment
+     * version 0.0.3 - updated splashHome
+     *
      * *
      */
     public partial class SplashForm : Form
@@ -27,7 +28,7 @@ namespace COMP123_S2016_FinalExam
 
         private void SplashFormTimer_Tick(object sender, EventArgs e)
         {
-          
+            SplashFormTimer.Enabled = false;
             //create Next form 
             GenerateNameForm generate = new GenerateNameForm();
             generate.Show();

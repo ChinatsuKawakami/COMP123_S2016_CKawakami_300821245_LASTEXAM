@@ -16,7 +16,7 @@ namespace COMP123_S2016_FinalExam
         public GenerateNameForm()
         {
             InitializeComponent();
-        
+            
         }
 
 
@@ -28,8 +28,6 @@ namespace COMP123_S2016_FinalExam
             FirstNameListBox.SelectedIndex = genarateNumber;
             LastNameListBox.SelectedIndex = secondGenerate;
 
-            FirstNameTextBox.Text = FirstNameListBox.Text;
-            LastNameTextBox.Text = LastNameListBox.Text;
         }
 
         private void GenerateNameForm_Load(object sender, EventArgs e)
@@ -41,6 +39,9 @@ namespace COMP123_S2016_FinalExam
         private void GenerateButton_Click(object sender, EventArgs e)
         {
             GeneratedNames();
+
+            FirstNameTextBox.Text = FirstNameListBox.Text;
+            LastNameTextBox.Text = LastNameListBox.Text;
             Character character = Program.character;
             character.FirstName = this.FirstNameTextBox.Text;
             character.LastName = this.LastNameTextBox.Text;

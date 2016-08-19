@@ -41,6 +41,8 @@ namespace COMP123_S2016_FinalExam
 
         private void FinalForm_Load(object sender, EventArgs e)
         {
+
+            
             Character character = new Character();
             StrengthTextBox.Text = character.Strength;
             DexterityTextBox.Text = character.Dexterity;
